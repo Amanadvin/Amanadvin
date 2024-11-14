@@ -1,50 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smiley Face</title>
-    <style>
-        .smiley {
-            position: relative;
-            width: 200px;
-            height: 200px;
-            background-color: yellow;
-            border-radius: 50%;
-            margin: 50px auto;
-        }
-        .smiley::before,
-        .smiley::after {
-            content: '';
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            background-color: black;
-            border-radius: 50%;
-        }
-        .smiley::before {
-            top: 50px;
-            left: 50px;
-        }
-        .smiley::after {
-            top: 50px;
-            right: 50px;
-        }
-        .smile {
-            position: absolute;
-            bottom: 40px;
-            left: 50%;
-            width: 120px;
-            height: 60px;
-            border: 5px solid black;
-            border-radius: 0 0 60px 60px;
-            transform: translateX(-50%);
-        }
-    </style>
-</head>
-<body>
-    <div class="smiley">
-        <div class="smile"></div>
-    </div>
-</body>
-</html>
+
+<!-- 
+this doesn't work on github for some security issues -->
+
+<!-- <div style="width: 100px; height: 100px; background-color: yellow; border-radius: 50%; display: flex; justify-content: center; align-items: center; position: relative;"> -->
+  <!-- Eyes -->
+  <!-- <div style="width: 20px; height: 20px; background-color: black; border-radius: 50%; position: absolute; top: 25px; left: 20px;"></div> -->
+  <!-- <div style="width: 20px; height: 20px; background-color: black; border-radius: 50%; position: absolute; top: 25px; right: 20px;"></div> -->
+  <!--  -->
+  <!-- Smiling Mouth -->
+  <!-- <div style="width: 50px; height: 25px; border: 3px solid black; border-top-left-radius: 25px; border-top-right-radius: 25px; position: absolute; bottom: 10px; transform: rotate(180deg);"></div> -->
+<!-- </div> -->
+<!--  -->
+
+<!-- 
+adding a new templet for readme -->
+
+# Smiley Face
+
+![Smiley Face](smile.png)
